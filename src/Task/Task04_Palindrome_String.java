@@ -12,7 +12,7 @@ public class Task04_Palindrome_String {
             str_rev = str_rev + str.charAt(i);
         }
         System.out.println(str_rev);
-        if (str.equalsIgnoreCase(str_rev)) {
+        if (str.equals(str_rev)) {
 
             System.out.println("It is palindrome");
         }
