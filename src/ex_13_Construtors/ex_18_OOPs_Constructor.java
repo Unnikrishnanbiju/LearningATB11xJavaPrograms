@@ -4,6 +4,7 @@ public class ex_18_OOPs_Constructor {
 
     public static void main(String[] args) {
         Baby b1 = new Baby(); // ✅ Now works fine
+        new Baby();
         b1.cry();
     }
 
